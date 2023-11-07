@@ -1,0 +1,227 @@
+*{
+margin: 0;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.header{
+background-color: #FFF8F3;
+background-image: url(./images/header_bg.png), url(./images/developer.png);
+background-repeat: no-repeat;
+background-position: bottom right, left;
+}
+
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+
+.text-color{
+color: orange;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+padding: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding: 20px;
+}
+.button{
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border: 0;
+    border-radius: 3px;
+   padding: 12px 25px;
+}
+.banner{
+    display: flex;
+    margin: 0 200px;
+}
+.banner-sub-titel{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 85px;
+    margin-bottom: 5px;
+}
+.banner-caption{
+font-size: 20px;
+color: #757575;
+margin-bottom: 30px;
+}
+.banner-btn{
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border: 0;
+    border-radius: 3px;
+   padding: 12px 25px;
+   margin-right: 10px;
+}
+.banner-contact-btn{
+    color: rgb(255, 106, 0);
+    background-color: rgb(254, 244, 231);
+    border: 1px solid  rgb(255, 106, 0);
+    border-radius: 3px;
+    padding:12px 25px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+background-color: #FFF8F3;
+margin-top: 130px;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+ .section-title{
+font-weight: 900;
+font-size: 35px;
+margin-bottom: 30px;
+ }
+ .section-caption{
+color: #757575;
+font-size: 18px;
+margin-bottom: 30px;
+ }
+
+ .about-info-container{
+    display: flex;
+    justify-content: space-between;
+ }
+ .info-title{
+    font-size: 20px;
+    color: #757575;
+ }
+ .info-item{
+    font-weight: 700;
+    font-size: 18px;
+    color: #474747;
+ }
+
+.what{
+    margin-top: 90px;
+    padding: 130px 150px;
+    text-align: center; 
+}
+.what-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.title-caption{
+    color: #757575;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.skill-container{
+display: flex;
+gap: 30px;
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+.skill-caption{
+    color: #757575;
+text-align: start;
+}
+.resume{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.resume-title{
+    display: flex;
+gap: 26px;
+}
+
+.resume-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.resume-skill{
+font-weight: 700;
+font-size: 24px;
+margin-bottom: 7px;
+margin-top: 18px;
+}
+
+.resume-edu{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 12px;
+}
+
+.resume-contain{
+    text-align: start;
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.download-btn{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact{
+background-color: #FFF8F3;
+padding:130px 220px;
+}
+
+.contact-from{
+    display: flex;
+ gap: 100px;
+}
+
+.contact-title{
+font-weight: 700;
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+.contact-caption{
+    color: #343434;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.from-side input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 15px 10px;
+} 
